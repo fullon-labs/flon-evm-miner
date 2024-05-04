@@ -19,15 +19,15 @@ For every transaction that you relay you will receive a reward in the form of FL
 > ⚠ **You must have registered your miner**
 >
 > You must have registered your miner account on the FLON Network. [Head over to our
-> docs](https://docs.FLONnetwork.com/evm/miners-and-nodes/transaction-miner) to learn all about
+> docs](https://docs.flon.network/evm/miners-and-nodes/transaction-miner) to learn all about
 > mining, claiming your rewards, and more.
 
 
 ### Get the code
 
 ```bash
-git clone https://github.com/FLONnetworkfoundation/FLON-evm-miner.git
-cd FLON-evm-miner
+git clone https://github.com/fullon-labs/flon-evm-miner.git
+cd flon-evm-miner
 ```
 
 ### Install dependencies
