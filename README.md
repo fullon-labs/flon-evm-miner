@@ -1,33 +1,33 @@
-# EOS EVM Miner
+# FLON EVM Miner
 
-This tool allows you to accept Ethereum transactions and relay them to the EOS EVM.
+This tool allows you to accept Ethereum transactions and relay them to the FLON EVM.
 
-For every transaction that you relay you will receive a reward in the form of EOS tokens.
+For every transaction that you relay you will receive a reward in the form of FLON tokens.
 
 ## Environment Variables
 
 | Name | Description                                                                                                       | Default |
 | --- |-------------------------------------------------------------------------------------------------------------------|---------|
 | `PRIVATE_KEY` | The private key of the miner account                                                                              |         |
-| `MINER_ACCOUNT` | The name of the miner account on the EOS Network                                                                  |         |
-| `RPC_ENDPOINTS` | A list of EOS RPC endpoints to connect to, comma-delimited                                                        |         |
+| `MINER_ACCOUNT` | The name of the miner account on the FLON Network                                                                  |         |
+| `RPC_ENDPOINTS` | A list of FLON RPC endpoints to connect to, comma-delimited                                                        |         |
 | `PORT` | The port to listen on for incoming Ethereum transactions                                                          | `50305` |
-| `LOCK_GAS_PRICE` | If set to `true`, one a gas price is set, this miner will not hit the EOS API node again to fetch a new gas price | `true`  |
+| `LOCK_GAS_PRICE` | If set to `true`, one a gas price is set, this miner will not hit the FLON API node again to fetch a new gas price | `true`  |
 
 ## Usage
 
 > ⚠ **You must have registered your miner**
 >
-> You must have registered your miner account on the EOS Network. [Head over to our
-> docs](https://docs.eosnetwork.com/evm/miners-and-nodes/transaction-miner) to learn all about
+> You must have registered your miner account on the FLON Network. [Head over to our
+> docs](https://docs.FLONnetwork.com/evm/miners-and-nodes/transaction-miner) to learn all about
 > mining, claiming your rewards, and more.
 
 
 ### Get the code
 
 ```bash
-git clone https://github.com/eosnetworkfoundation/eos-evm-miner.git
-cd eos-evm-miner
+git clone https://github.com/FLONnetworkfoundation/FLON-evm-miner.git
+cd FLON-evm-miner
 ```
 
 ### Install dependencies
