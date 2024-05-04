@@ -12,7 +12,7 @@ For every transaction that you relay you will receive a reward in the form of FL
 | `MINER_ACCOUNT` | The name of the miner account on the FLON Network                                                                  |         |
 | `RPC_ENDPOINTS` | A list of FLON RPC endpoints to connect to, comma-delimited                                                        |         |
 | `PORT` | The port to listen on for incoming Ethereum transactions                                                          | `50305` |
-| `LOCK_GAS_PRICE` | If set to `true`, one a gas price is set, this miner will not hit the FLON API node again to fetch a new gas price | `true`  |
+| `LOCK_GAS_PRICE` | If set to `true`, once a gas price is set, this miner will not hit the FLON API node again to fetch a new gas price | `true`  |
 
 ## Usage
 
